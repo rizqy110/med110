@@ -9,6 +9,6 @@ if(isset($_GET['get_html'])){
 
 if(isset($_GET['url'])){$url = $_GET['url'];}else{$url = "";}
 $html = file_get_html($url);
-$directlink = $html->find('source',2)->src;
+$directlink = $html->find('source',0)->src;
 header('location:'.$directlink.'');
 ?>

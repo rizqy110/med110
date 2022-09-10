@@ -14,7 +14,7 @@ if(isset($_GET['goo'])) {
 }
 if(isset($_GET['med'])) {
   $url = $_GET['med'];
-  header('location:https://rr-anime.000webhostapp.com/med.php?url=https://www.mediafire.com/file/'.$url.'');
+  header('location:med.php?url=https://www.mediafire.com/file/'.$url.'');
 } else {
 
 }

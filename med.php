@@ -1,5 +1,5 @@
 <?php
-include '../assets/simplehtmldom.php';
+include 'assets/simplehtmldom.php';
 if(isset($_GET['id'])){
     $url = 'https://www.mediafire.com/file/'.$_GET['id'].'/';
     $status = 1;

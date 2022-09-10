@@ -14,7 +14,7 @@ if(isset($_GET['rr-av'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Save Anime</title>
 <link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://img.icons8.com/color/1080/tanjiro-kamado.png" type="image/x-icon">
 
 <meta name="description" content="Grabber RR-Anime KU">
 

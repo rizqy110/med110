@@ -1,3 +1,12 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+if(isset($_GET['rr-av'])) {
+  $url = $_GET['rr-av'];
+  header('location:source.php?url=https://kuramanime.com/anime/'.$url.'');
+} else {
+ 
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

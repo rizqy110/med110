@@ -6,6 +6,12 @@ if(isset($_GET['rr-av'])) {
 } else {
 
 }
+if(isset($_GET['rr-op'])) {
+  $url = $_GET['rr-op'];
+  header('location:iframe.php?url=https://65.108.132.145/'.$url.'');
+} else {
+
+}
 if(isset($_GET['goo'])) {
   $url = $_GET['goo'];
   header('location:https://drive.google.com/uc?export=download&confirm=t&id='.$url.'');

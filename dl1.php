@@ -1,5 +1,5 @@
 <?php
-include 'dom.php';
+include 'assets/simplehtmldom.php';
 header('Access-Control-Allow-Origin: *');
 if(isset($_GET['get_html'])){
        header('Content-Type: application/json; charset=utf-8');

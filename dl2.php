@@ -12,5 +12,5 @@ $html = file_get_html($url);
 $directlink = $html->find('.bg-white .mt-2 .mb-2 a',9)->href;
 //$dlh = file_get_html($directlink);
 //$link = $dlh->find('a',0)->href;
-header('location:'.$directlink.'');
+header('location:https://kuramanime.com/anime/'.$directlink.'');
 ?>

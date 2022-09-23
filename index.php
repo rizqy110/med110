@@ -26,7 +26,7 @@ if(isset($_GET['dl2'])) {
 }
 if(isset($_GET['ngentot'])) {
   $url = $_GET['ngentot'];
-  $arr = array("https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html","https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/07/dangers-of-oxidized-food.html","https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/07/your-body-is-acidic-stop-consuming-sugar.html","https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/06/3-ways-to-balance-bodys-acidic-ph.html","https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/06/processed-products-and-leaky-gut.html","https://www.google.com/url?sa=t&source=web&url=https://www.funhealtykey.com/2022/06/how-to-stop-feeling-sleepy-after-eating.html");
+  $arr = array("https://www.funhealtykey.com/2022/09/11-Benefits-of-Propolis-Scientifically-Proven-Magical-Substance.html","https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html","https://www.funhealtykey.com/2022/07/dangers-of-oxidized-food.html","https://www.funhealtykey.com/2022/07/your-body-is-acidic-stop-consuming-sugar.html","https://www.funhealtykey.com/2022/06/3-ways-to-balance-bodys-acidic-ph.html","https://www.funhealtykey.com/2022/06/processed-products-and-leaky-gut.html","https://www.funhealtykey.com/2022/06/how-to-stop-feeling-sleepy-after-eating.html");
   header('location:'.$arr[array_rand($arr)].$url.'');
 } else {
  

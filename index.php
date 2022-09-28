@@ -26,7 +26,7 @@ if(isset($_GET['dl2'])) {
 }
 if(isset($_GET['blog'])) {
   $url = $_GET['blog'];
-  $arr = array("https://www.funhealtykey.com/2022/09/11-best-self-healing-ways-effectively-healing-inner-wounds.html","https://www.funhealtykey.com/2022/09/10-ways-to-fatten-gain-child-weight.html","https://www.funhealtykey.com/2022/09/11-Benefits-of-Propolis-Scientifically-Proven-Magical-Substance.html","https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html");
+  $arr = array("https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/09/11-best-self-healing-ways-effectively-healing-inner-wounds.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/09/10-ways-to-fatten-gain-child-weight.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/09/11-Benefits-of-Propolis-Scientifically-Proven-Magical-Substance.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/09/4-recipes-to-gain-weight.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/06/how-to-stop-feeling-sleepy-after-eating.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/06/processed-products-and-leaky-gut.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/06/3-ways-to-balance-bodys-acidic-ph.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/07/your-body-is-acidic-stop-consuming-sugar.html","https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.funhealtykey.com/2022/07/dangers-of-oxidized-food.html");
   header('location:'.$arr[array_rand($arr)].$url.'');
 } else {
  

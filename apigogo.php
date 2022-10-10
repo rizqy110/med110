@@ -22,9 +22,9 @@ $json = json_decode($json, true);
   playerInstance.setup({
     sources: <?php echo json_encode($json) ?>,
     autostart: false,
-    title: "AnimES",
-    abouttext: "AnimES",
-    aboutlink: "https://funhealtykey.blogspot.com"             
+    title: "EN-ANIMES",
+    abouttext: "EN-ANIMES",
+    aboutlink: "https://en-animes.blogspot.com"             
     });
   playerInstance.addButton(
    'https://img.icons8.com/external-flat-icons-inmotus-design/512/external-Download-round-mobile-ui-set-flat-icons-inmotus-design.png',

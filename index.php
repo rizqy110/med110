@@ -109,6 +109,6 @@ if(isset($_GET['kur'])) {
 
 </head>
 <body>
-  <a href="//rr-anime.pages.dev">RR-Anime</a>
+  <a href="//dnime.pages.dev">Dnime Pages</a>
 </body>
 </html>

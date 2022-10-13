@@ -6,6 +6,15 @@ if(isset($_GET['rr-av'])) {
 } else {
 
 }
+
+if(isset($_GET['api'])) {
+  $url = $_GET['api'];
+$arr = array("https://anikatsu-api1.herokuapp.com/vidcdn/","https://anikatsu-api2.herokuapp.com/vidcdn/","https://api-chinese-anime.vercel.app/api/vidcdn/");
+header('location:'.$arr[array_rand($arr)].$url.'');
+} else {
+
+}
+
 if(isset($_GET['rr-av2'])) {
   $url = $_GET['rr-av2'];
   header('location:source2.php?url=https://kuramanime.com/anime/'.$url.'');

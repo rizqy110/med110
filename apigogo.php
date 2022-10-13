@@ -1,6 +1,6 @@
 <?php 
 $id = $_GET['id'];
-$json = file_get_contents("https://api-chinese-anime.vercel.app/api/vidcdn/$id");
+$json = file_get_contents("index.php?api=$id");
 $json = json_decode($json, true);
 ?>
 <!DOCTYPE html>

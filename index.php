@@ -57,13 +57,17 @@ if (isset($_GET['id'])) {
 
 <meta name="description" content="Grabber Anime Twitter">
 <style>
-  .bc-1{background-color:#1f1f1f}
-  .p-5{padding:5px}
-  .br-3{border-radius:3px}
+.ai-c{align-items:center}
+.bc-1{background-color:#ccc}
+.c-r{color:red}
+.d-f{display:flex}
+.p-5{padding:5px}
+.br-3{border-radius:3px}
+.h-100vh{height:100vh}
 </style>
 
 </head>
 <body>
-  <center><a class="bc-1 p-5 br-3" href="index.php?api=<?php echo $id; ?>">Play Anime Here</a></center>
+  <center class="h-100vh d-f ai-c"><a class="bc-1 p-5 br-3 c-r" href="index.php?api=<?php echo $id; ?>">Click Here..! To Play Anime</a></center>
 </body>
 </html>

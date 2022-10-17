@@ -13,9 +13,21 @@ $json = json_decode($json, true);
 <meta name="referrer" content="no-referrer">
 <script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/8.8.6/jwplayer.js"></script>
 <script type="text/javascript">jwplayer.key="64HPbvSQorQcd52B8XFuhMtEoitbvY/EXJmMBfKcXZQU2Rnn";</script>
-<style type="text/css" media="screen">html,body{padding:0;margin:0;height:100%}#myElement{width:100%!important;height:100%!important;overflow:hidden;background-color:#000;border:none}#myElement{margin:0;background-image:url(https://service.acefile.co/assets/preload.svg);background-position:center;background-repeat:no-repeat}</style>
+<style type="text/css" media="screen">html,body{padding:0;margin:0;height:100%}#myElement{width:100%!important;height:100%!important;overflow:hidden;background-color:#000;border:none}#myElement{margin:0;background-image:url(https://service.acefile.co/assets/preload.svg);background-position:center;background-repeat:no-repeat}.p-f{position:fixed}</style>
 </head>
 <body>
+  <center class="p-f">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '2ad3446d2654fa186816f6407cb887af',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://poplarwindowsmasculine.com/2ad3446d2654fa186816f6407cb887af/invoke.js"></scr' + 'ipt>');
+</script>
+  </center>
 <div id="myElement">Loading...</div>
 <script type="text/javascript">
   var playerInstance = jwplayer("myElement");

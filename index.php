@@ -69,6 +69,6 @@ if (isset($_GET['id'])) {
 
 </head>
 <body>
-  <center class="h-100vh d-f ai-c jc-c"><a class="bc-1 p-5 br-3 c-r" href="apigogo.php?api=<?php echo $id; ?>">Click Here..! To Play Anime</a></center>
+  <center class="h-100vh d-f ai-c jc-c"><a class="bc-1 p-5 br-3 c-r" href="apigogo.php?id=<?php echo $id; ?>">Click Here To Play Anime</a></center>
 </body>
 </html>

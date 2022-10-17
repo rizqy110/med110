@@ -61,6 +61,7 @@ if (isset($_GET['id'])) {
 .bc-1{background-color:#ccc}
 .c-r{color:red}
 .d-f{display:flex}
+.jc-c{justify-content:center}
 .p-5{padding:5px}
 .br-3{border-radius:3px}
 .h-100vh{height:100vh}
@@ -68,6 +69,6 @@ if (isset($_GET['id'])) {
 
 </head>
 <body>
-  <center class="h-100vh d-f ai-c"><a class="bc-1 p-5 br-3 c-r" href="index.php?api=<?php echo $id; ?>">Click Here..! To Play Anime</a></center>
+  <center class="h-100vh d-f ai-c jc-c"><a class="bc-1 p-5 br-3 c-r" href="index.php?api=<?php echo $id; ?>">Click Here..! To Play Anime</a></center>
 </body>
 </html>

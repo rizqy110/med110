@@ -9,7 +9,7 @@ if(isset($_GET['rr-av'])) {
 
 if(isset($_GET['api'])) {
   $url = $_GET['api'];
-$arr = array("https://anikatsu-api1.herokuapp.com/vidcdn/","https://anikatsu-api2.herokuapp.com/vidcdn/","https://api-chinese-anime.vercel.app/api/vidcdn/");
+$arr = array("https://api.anikatsu.ga/vidcdn/watch/","https://anikatsu-api1.herokuapp.com/vidcdn/","https://anikatsu-api2.herokuapp.com/vidcdn/","https://api-chinese-anime.vercel.app/api/vidcdn/");
 header('location:'.$arr[array_rand($arr)].$url.'');
 } else {
 
